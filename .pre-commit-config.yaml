@@ -1,0 +1,6 @@
+repos:
+  - repo: https://github.com/rvben/rumdl-pre-commit
+    rev: v0.1.63
+    hooks:
+      - id: rumdl      # Lint + auto-fix, fails if unfixable issues remain
+      - id: rumdl-fmt  # Pure format, always exits 0
